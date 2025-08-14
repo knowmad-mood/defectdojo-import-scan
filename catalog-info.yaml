@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DefectDojo Import Scan
+  description: GitHub Action para importar resultados de escaneos a Defect Dojo
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: knowmad-mood/defectdojo-import-scan
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: action
+  owner: knowmad-mood
+  lifecycle: producciòn
